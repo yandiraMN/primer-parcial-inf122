@@ -5,7 +5,7 @@
 
 1. Realiza un **Fork** de este repositorio:
 ![Repositorio del Primer Parcial](https://live.staticflickr.com/65535/53455858302_3cf16ce09a_b.jpg)
-2. *Clona* el nuevo repositorio resultado del **Fork** en tu equipo local o ábrelo con GitHub Codespaces
+2. **Clona** el nuevo repositorio resultado del **Fork** en tu equipo local o ábrelo con GitHub Codespaces
 
 ### Contexto:
 Te han reclutado como Desarrollador Front-end Junior en una StartUp que tiene como producto una plataforma para portafolios personales. Después de exhaustivas reuniones y análisis de los clientes objetivo, el **Diseñador UI/UX** ha presentado el siguiente diseño en [Figma](https://cutt.ly/MwJdoiBp)

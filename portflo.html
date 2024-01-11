@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            width: 100%;
+            height: 100vh;
+            margin: 0;
+            border-radius: 20px;
+            background: #0C151D;
+            font-family: 'Poppins';
+            color: #A3ABB2;
+        }
+
+        .card-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .card-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .card-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .central {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 2rem;
+        }
+
+        .profile-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            text-align: center;
+        }
+
+        .social-icons img {
+            margin-right: 1cm;
+        }
+
+        .profile-facts {
+            display: flex;
+            padding: 20px 2px;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .profile-buttons {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 1rem;
+            margin-right: 2cm;
+        }
+
+        
+
+        .central2 {
+            justify-content: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding-left: 100px;
+            margin-left: 1.5cm;
+        }
+
+        .perso {
+            width: 290px;
+            height: 80px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            background: #FFE071;
+            color: #3D3D3D;
+            font-size: 1.5em;
+            cursor: copy;
+        }
+
+        .more-info {
+            display: grid;
+            grid-template-columns: (3);
+            grid-template-rows: 2;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .icons-container {
+            display: grid;
+            grid-template-columns: 3;
+            grid-template-rows: 2;
+            justify-content: center;
+        }
+
+        .card-icon {
+            width: 80px;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 28px;
+        }
+
+        .card-icon figure img {
+            width: 10cm;
+            height: 10cm;
+        }
+        figure{
+        width: fit-content;
+        height: fit-content;
+        align-items: center;
+        align-content: center;
+        }
+
+
+
+        .botongeneral{
+            width: 290px;
+height: 80px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 0px solid #3E64AA;
+background: #171F26;
+color:#A3ABB2;
+font-size: 1.5em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="central">
+        <div class="profile-info">
+            <div class="card-container">
+                <div class="card-icon">
+                    <img src="assets/images/perfil_picture.jpeg" alt="" class="logo">
+                </div>
+                <div class="central">
+                    <h2>Victor Alvarado</h2>
+                    <h3>Software Engineer</h3>
+                    <div class="social-icons">
+                        <img src="assets/icons/github.svg" alt="">
+                        <img src="assets/icons/twitter.svg" alt="">
+                        <img src="assets/icons/linkedin.svg" alt="">
+                        <img src="assets/icons/youtube.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="profile-facts">
+            <h3 >7 years of work experience</h3>
+            <h3 >50+ completed projects</h3>
+            <h3 >20+ Satisfied customers</h3>
+        </div>
+        <div class="profile-buttons">
+            <div class="central2">
+                <button class="perso"id="Descargascript">Download CV</button>
+            </div>
+            <div class="central2">
+                <button class="botongeneral">Contact me</button>
+            </div>
+        </div>
+        <div class="profile-buttons">
+            <div class="central2">
+                <button class="botongeneral" >Portafolio</button>
+            </div>
+            <div class="central2">
+                <button class="botongeneral">Skills</button>
+            </div>
+        </div>
+    </div>
+
+            
+                    <figure>
+                        <img src="assets/images/bussiness_man.png" alt="" class="logo">
+                    </figure>
+                </div>
+               
+                        <figure>
+                            <img src="assets/images/issima_page.png" alt="" class="logo">
+                        </figure>
+                    </div>
+                </div>
+               
+                        <figure>
+                            <img src="assets/images/kitchen.jpeg" alt="" class="logo">
+                        </figure>
+                    </div>
+                </div>
+          
+                        <figure>
+                            <img src="assets/images/mobile_app.png" alt="" class="logo">
+                        </figure>
+                    </div>
+                </div>
+            
+                        <figure>
+                            <img src="assets/images/mobile_app.png" alt="" class="logo">
+                        </figure>
+                    </div>
+                  
+                            <figure>
+                                <img src="assets/images/mobile_app.png" alt="" class="logo">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        document.getElementById("Descargascript").addEventListener("click", function() {
+            window.alert(" Downloading Document ");
+        });
+    </script>
+</body>
+
+</html>
+
+</body>
+
+</html>
